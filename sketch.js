@@ -21,7 +21,7 @@ function setup() {
   });
   video.hide();
 
-  //用来初始化多条鱼，然后它们的大小会逐渐减小到最后就只剩下一条鱼。
+  //画面最开始很多鱼出现的代码。
   for (let i = numLayers - 1; i >= 0; i--) {
     let fishX = random(width); 
     let fishY = random(height); 
